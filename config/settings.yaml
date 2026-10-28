@@ -1,0 +1,10 @@
+# Analysis parameters. Any key can be overridden with an env var of the same
+# name in upper case (e.g. RISK_FREE_RATE=0.07).
+risk_free_rate: 0.065        # annual, used by Sharpe and Sortino
+analysis_years: 10           # SIP horizon, survivorship window
+risk_window_years: 5         # trailing window for volatility / Sharpe / drawdown
+min_coverage: 0.95           # skip windows with fewer observed NAVs than this share of trading days
+min_windows: 12              # a fund needs at least this many monthly rolling windows to be scored
+jump_threshold: 0.20         # flag single-day NAV moves larger than this
+sip_amount: 10000            # rupees per month
+nav_start_date: "2013-01-01" # direct plans launched in Jan 2013

@@ -1,0 +1,15 @@
+# Category -> the direct-plan, growth-option index fund used as the investable
+# "index alternative". Its NAV is already net of its own (low) expense ratio.
+# Picked for the longest NAV history among index funds tracking each index.
+Large Cap:
+  scheme_code: 120716
+  name: UTI Nifty 50 Index Fund - Direct Plan - Growth
+  index: Nifty 50
+Flexi Cap:
+  scheme_code: 147625
+  name: Motilal Oswal Nifty 500 Index Fund - Direct Plan - Growth
+  index: Nifty 500
+Mid Cap:
+  scheme_code: 147622
+  name: Motilal Oswal Nifty Midcap 150 Index Fund - Direct Plan - Growth
+  index: Nifty Midcap 150
